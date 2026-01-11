@@ -1,64 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AutoReply AI – WhatsApp Automation for Indian Businesses</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoReply AI – WhatsApp Automation for Businesses</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0b0f1a;
-      color: #ffffff;
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #0b1220; color: #ffffff; line-height: 1.6; }
+    a { text-decoration: none; }
+
+    header {
+      background: linear-gradient(135deg, #0f1c3f, #0b1220);
+      padding: 70px 20px;
       text-align: center;
     }
-    header {
-      padding: 60px 20px;
+
+    header h1 {
+      font-size: 2.6rem;
+      font-weight: 700;
+      margin-bottom: 12px;
     }
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
+
+    header span { color: #25D366; }
+
+    header p {
+      max-width: 720px;
+      margin: 0 auto 30px;
+      color: #c7d2ff;
+      font-size: 1.1rem;
     }
-    p {
-      font-size: 18px;
-      color: #cccccc;
-    }
-    .cta {
+
+    .cta-btn {
       display: inline-block;
-      margin-top: 30px;
-      padding: 15px 30px;
       background: #25D366;
-      color: #000;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 6px;
+      color: #08150f;
+      padding: 15px 34px;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 10px 25px rgba(37,211,102,0.35);
     }
+
+    .cta-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 35px rgba(37,211,102,0.55);
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 { text-align: center; margin-bottom: 40px; font-size: 2.1rem; }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 28px;
+    }
+
+    .card {
+      background: #111a33;
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+    }
+
+    .card h3 { margin-bottom: 10px; font-size: 1.25rem; }
+
+    .card p { color: #b8c3ff; font-size: 0.95rem; }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .step {
+      background: #0f1730;
+      border: 1px solid #1f2a4a;
+      border-radius: 16px;
+      padding: 25px;
+    }
+
+    .step span {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #25D366;
+    }
+
+    .step h4 { margin: 10px 0; }
+
+    .final-cta {
+      background: linear-gradient(135deg, #0f1c3f, #0b1220);
+      text-align: center;
+      padding: 80px 20px;
+    }
+
     footer {
-      margin-top: 80px;
-      padding: 20px;
-      background: #05070d;
-      font-size: 14px;
-    }
-    footer a {
-      color: #aaaaaa;
-      text-decoration: none;
-      margin: 0 10px;
+      text-align: center;
+      padding: 30px 15px;
+      font-size: 0.85rem;
+      color: #8fa0ff;
+      background: #070b16;
     }
   </style>
 </head>
-
 <body>
 
 <header>
-  <h1>AutoReply AI</h1>
-  <p>Automate WhatsApp replies for Indian businesses.<br>
-     Capture leads 24×7 without staff.</p>
-
-  <a class="cta" href="https://forms.google.com">
-    Get Free Demo
-  </a>
+  <h1>AutoReply <span>AI</span></h1>
+  <p>Automate your WhatsApp business replies using AI. Reply to customers instantly, send follow-ups automatically and close more sales — without staff or coding.</p>
+  <a href="#lead" class="cta-btn">Start Free – No Credit Card</a>
 </header>
 
+<section>
+  <h2>Why Indian Businesses Choose AutoReply AI</h2>
+  <div class="features">
+    <div class="card">
+      <h3>🤖 Instant WhatsApp Replies</h3>
+      <p>AI answers customer questions instantly, even when you are offline.</p>
+    </div>
+    <div class="card">
+      <h3>🕒 24×7 Availability</h3>
+      <p>Never miss a lead. AI works day and night for your business.</p>
+    </div>
+    <div class="card">
+      <h3>💸 Save Staff Cost</h3>
+      <p>Reduce hiring and operational costs with AI automation.</p>
+    </div>
+    <div class="card">
+      <h3>📄 Train With Your Data</h3>
+      <p>Upload PDFs, price lists, FAQs or website links and AI learns your business.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>How AutoReply AI Works</h2>
+  <div class="steps">
+    <div class="step">
+      <span>1</span>
+      <h4>Add Business Info</h4>
+      <p>Upload your product details, FAQs or website.</p>
+    </div>
+    <div class="step">
+      <span>2</span>
+      <h4>AI Learns Automatically</h4>
+      <p>The AI understands your services and offers.</p>
+    </div>
+    <div class="step">
+      <span>3</span>
+      <h4>Connect to WhatsApp</h4>
+      <p>AI starts replying to customer messages instantly.</p>
+    </div>
+    <div class="step">
+      <span>4</span>
+      <h4>Get More Leads</h4>
+      <p>Faster replies lead to higher customer conversion.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Perfect For</h2>
+  <div class="features">
+    <div class="card"><p>Shops & Retail Stores</p></div>
+    <div class="card"><p>Clinics & Hospitals</p></div>
+    <div class="card"><p>Coaches & Trainers</p></div>
+    <div class="card"><p>Consultants & Agencies</p></div>
+    <div class="card"><p>Real Estate Businesses</p></div>
+    <div class="card"><p>Service Providers</p></div>
+  </div>
+</section>
+
+<div class="final-cta" id="lead">
+  <h2>Start Using AI on WhatsApp Today</h2>
+  <p style="max-width:600px; margin:0 auto 30px; color:#c7d2ff;">Free plan available. No technical knowledge required. Trusted by businesses across India.</p>
+  <a href="#" class="cta-btn">Get Free AI Demo</a>
+</div>
 <footer>
   <a href="privacy.html">Privacy Policy</a> |
   <a href="terms.html">Terms & Conditions</a>
@@ -67,6 +189,7 @@
 
 </body>
 </html>
+
 
 
 
